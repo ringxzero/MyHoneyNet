@@ -1,0 +1,8 @@
+HEAD http://112.124.42.80:63435/ HTTP/1.1
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+BS_REAL_IP: TmpBdU1Ua3hMakV5TlM0ek5RPT0=
+Host: 112.124.42.80:63435
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+Proxy-Connection: keep-alive
+
