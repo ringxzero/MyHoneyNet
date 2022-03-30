@@ -1,0 +1,1220 @@
+
+honeytrap v1.1.0 Copyright (C) 2005-2015 Tillmann Werner <tillmann.werner@gmx.de>
+[2022-03-30 14:55:19] Initializing plugins.
+[2022-03-30 14:55:19] ---- Trapping attacks via NFQ. ----
+[2022-03-30 14:55:22] 45.135.232.80:41460 requesting tcp connection on 164.90.157.200:5050.
+[2022-03-30 14:55:29] 79.124.62.130:51534 requesting tcp connection on 164.90.157.200:7069.
+[2022-03-30 14:56:09] 193.56.146.28:63725 requesting tcp connection on 164.90.157.200:1285.
+[2022-03-30 14:56:09]     1285/tcp  Handling tcp connection request from 193.56.146.28:63725 to 164.90.157.200:1285.
+[2022-03-30 14:56:09]     1285/tcp* 47 bytes read.
+[2022-03-30 14:56:10]     1285/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 14:56:10]     1285/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 14:56:10]  *  1285/tcp  47 bytes attack string from 193.56.146.28:63725.
+[2022-03-30 14:56:27] 167.248.133.146:52917 requesting tcp connection on 164.90.157.200:385.
+[2022-03-30 14:56:28] 92.63.196.61:58841 requesting tcp connection on 164.90.157.200:42534.
+[2022-03-30 14:56:49] 186.95.174.216:55622 requesting tcp connection on 164.90.157.200:65533.
+[2022-03-30 14:57:14] 162.142.125.242:45727 requesting tcp connection on 164.90.157.200:2850.
+[2022-03-30 14:57:14] 162.142.125.221:47298 requesting tcp connection on 164.90.157.200:2850.
+[2022-03-30 14:57:14]     2850/tcp  Handling tcp connection request from 162.142.125.221:47298 to 164.90.157.200:2850.
+[2022-03-30 14:57:15]     2850/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 14:57:15]     2850/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 14:57:15]  *  2850/tcp  No bytes received from 162.142.125.221:47298.
+[2022-03-30 14:57:15] 162.142.125.221:45536 requesting tcp connection on 164.90.157.200:2850.
+[2022-03-30 14:57:15]     2850/tcp  Handling tcp connection request from 162.142.125.221:45536 to 164.90.157.200:2850.
+[2022-03-30 14:57:16]     2850/tcp* 243 bytes read.
+[2022-03-30 14:57:17]     2850/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 14:57:17]     2850/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 14:57:17]  *  2850/tcp  243 bytes attack string from 162.142.125.221:45536.
+[2022-03-30 14:57:17] 162.142.125.221:47330 requesting tcp connection on 164.90.157.200:2850.
+[2022-03-30 14:57:17]     2850/tcp  Handling tcp connection request from 162.142.125.221:47330 to 164.90.157.200:2850.
+[2022-03-30 14:57:18]     2850/tcp* 45 bytes read.
+[2022-03-30 14:57:19]     2850/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 14:57:19]     2850/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 14:57:19]  *  2850/tcp  45 bytes attack string from 162.142.125.221:47330.
+[2022-03-30 14:57:19] 162.142.125.160:5189 requesting tcp connection on 164.90.157.200:2850.
+[2022-03-30 14:57:22] ->  5050/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 14:57:29] ->  7069/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 14:57:40] 45.143.203.3:50839 requesting tcp connection on 164.90.157.200:3894.
+[2022-03-30 14:57:42] 51.158.98.218:44959 requesting tcp connection on 164.90.157.200:375.
+[2022-03-30 14:57:51] 62.233.50.173:43258 requesting tcp connection on 164.90.157.200:6812.
+[2022-03-30 14:58:10] ->  1285/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 14:58:18] 193.56.146.28:64377 requesting tcp connection on 164.90.157.200:4510.
+[2022-03-30 14:58:18]     4510/tcp  Handling tcp connection request from 193.56.146.28:64377 to 164.90.157.200:4510.
+[2022-03-30 14:58:18]     4510/tcp* 47 bytes read.
+[2022-03-30 14:58:19]     4510/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 14:58:19]     4510/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 14:58:19]  *  4510/tcp  47 bytes attack string from 193.56.146.28:64377.
+[2022-03-30 14:58:28] -> 42534/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 14:58:31] 217.96.41.18:45076 requesting tcp connection on 164.90.157.200:27411.
+[2022-03-30 14:58:31]    27411/tcp  Handling tcp connection request from 217.96.41.18:45076 to 164.90.157.200:27411.
+[2022-03-30 14:58:32]    27411/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 14:58:32]    27411/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 14:58:32]  * 27411/tcp  No bytes received from 217.96.41.18:45076.
+[2022-03-30 14:58:42] 91.240.118.19:51494 requesting tcp connection on 164.90.157.200:3678.
+[2022-03-30 14:58:49] -> 65533/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 14:58:51] 79.124.62.86:51522 requesting tcp connection on 164.90.157.200:6000.
+[2022-03-30 14:59:02] 45.155.205.44:50653 requesting tcp connection on 164.90.157.200:4169.
+[2022-03-30 14:59:19] ->  2850/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 14:59:40] ->  3894/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 14:59:51] ->  6812/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 14:59:54] 47.112.155.133:51957 requesting tcp connection on 164.90.157.200:4244.
+[2022-03-30 14:59:55] 47.112.155.133:52116 requesting tcp connection on 164.90.157.200:4244.
+[2022-03-30 15:00:04] 185.191.34.113:43987 requesting tcp connection on 164.90.157.200:27689.
+[2022-03-30 15:00:12] 162.142.125.227:34147 requesting tcp connection on 164.90.157.200:2069.
+[2022-03-30 15:00:12] 162.142.125.8:36014 requesting tcp connection on 164.90.157.200:2069.
+[2022-03-30 15:00:13]     2069/tcp  Handling tcp connection request from 162.142.125.8:36014 to 164.90.157.200:2069.
+[2022-03-30 15:00:14]     2069/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:00:14]     2069/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:00:14]  *  2069/tcp  No bytes received from 162.142.125.8:36014.
+[2022-03-30 15:00:14] 162.142.125.8:45300 requesting tcp connection on 164.90.157.200:2069.
+[2022-03-30 15:00:14]     2069/tcp  Handling tcp connection request from 162.142.125.8:45300 to 164.90.157.200:2069.
+[2022-03-30 15:00:14]     2069/tcp* 243 bytes read.
+[2022-03-30 15:00:15]     2069/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:00:15]     2069/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:00:15]  *  2069/tcp  243 bytes attack string from 162.142.125.8:45300.
+[2022-03-30 15:00:15] 162.142.125.8:45268 requesting tcp connection on 164.90.157.200:2069.
+[2022-03-30 15:00:15]     2069/tcp  Handling tcp connection request from 162.142.125.8:45268 to 164.90.157.200:2069.
+[2022-03-30 15:00:16]     2069/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:00:16]     2069/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:00:16]  *  2069/tcp  No bytes received from 162.142.125.8:45268.
+[2022-03-30 15:00:17] 162.142.125.160:5189 requesting tcp connection on 164.90.157.200:2069.
+[2022-03-30 15:00:19] ->  4510/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:00:33] -> 27411/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:00:42] ->  3678/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:00:51] ->  6000/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:01:02] ->  4169/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:01:06] 79.124.62.86:51522 requesting tcp connection on 164.90.157.200:33389.
+[2022-03-30 15:01:07] 185.156.72.3:62025 requesting tcp connection on 164.90.157.200:53389.
+[2022-03-30 15:01:07]    53389/tcp  Handling tcp connection request from 185.156.72.3:62025 to 164.90.157.200:53389.
+[2022-03-30 15:01:07]    53389/tcp* 47 bytes read.
+[2022-03-30 15:01:08] 62.233.50.173:43258 requesting tcp connection on 164.90.157.200:7894.
+[2022-03-30 15:01:08]    53389/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:01:08]    53389/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:01:08]  * 53389/tcp  47 bytes attack string from 185.156.72.3:62025.
+[2022-03-30 15:01:08] 194.165.16.25:53898 requesting tcp connection on 164.90.157.200:57433.
+[2022-03-30 15:01:13] 79.124.62.130:51534 requesting tcp connection on 164.90.157.200:3403.
+[2022-03-30 15:01:16] 121.89.222.170:51907 requesting tcp connection on 164.90.157.200:2376.
+[2022-03-30 15:01:31] 79.124.62.34:51525 requesting tcp connection on 164.90.157.200:33089.
+[2022-03-30 15:01:35] 66.240.192.138:29011 requesting tcp connection on 164.90.157.200:8010.
+[2022-03-30 15:01:37] 167.94.138.99:58148 requesting tcp connection on 164.90.157.200:8020.
+[2022-03-30 15:01:40] 167.94.138.60:37068 requesting tcp connection on 164.90.157.200:8020.
+[2022-03-30 15:01:40]     8020/tcp  Handling tcp connection request from 167.94.138.60:37068 to 164.90.157.200:8020.
+[2022-03-30 15:01:41]     8020/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:01:41]     8020/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:01:41]  *  8020/tcp  No bytes received from 167.94.138.60:37068.
+[2022-03-30 15:01:41] 162.142.125.160:5189 requesting tcp connection on 164.90.157.200:8020.
+[2022-03-30 15:01:43] 45.155.205.41:50469 requesting tcp connection on 164.90.157.200:2883.
+[2022-03-30 15:01:46] 79.124.62.130:51534 requesting tcp connection on 164.90.157.200:3379.
+[2022-03-30 15:01:53] 167.94.138.157:41937 requesting tcp connection on 164.90.157.200:16052.
+[2022-03-30 15:01:54] ->  4244/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:01:54] 192.241.225.71:45142 requesting tcp connection on 164.90.157.200:5986.
+[2022-03-30 15:01:57] 167.94.138.45:49144 requesting tcp connection on 164.90.157.200:16052.
+[2022-03-30 15:01:57]    16052/tcp  Handling tcp connection request from 167.94.138.45:49144 to 164.90.157.200:16052.
+[2022-03-30 15:01:58]    16052/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:01:58]    16052/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:01:58]  * 16052/tcp  No bytes received from 167.94.138.45:49144.
+[2022-03-30 15:01:58] 167.94.138.45:41900 requesting tcp connection on 164.90.157.200:16052.
+[2022-03-30 15:01:58]    16052/tcp  Handling tcp connection request from 167.94.138.45:41900 to 164.90.157.200:16052.
+[2022-03-30 15:01:59]    16052/tcp* 243 bytes read.
+[2022-03-30 15:02:00]    16052/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:02:00]    16052/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:02:00]  * 16052/tcp  243 bytes attack string from 167.94.138.45:41900.
+[2022-03-30 15:02:00] 167.94.138.45:40494 requesting tcp connection on 164.90.157.200:16052.
+[2022-03-30 15:02:00]    16052/tcp  Handling tcp connection request from 167.94.138.45:40494 to 164.90.157.200:16052.
+[2022-03-30 15:02:01]    16052/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:02:01]    16052/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:02:01]  * 16052/tcp  No bytes received from 167.94.138.45:40494.
+[2022-03-30 15:02:01] 162.142.125.160:5189 requesting tcp connection on 164.90.157.200:16052.
+[2022-03-30 15:02:03] 124.223.119.52:50756 requesting tcp connection on 164.90.157.200:2375.
+[2022-03-30 15:02:04] -> 27689/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:02:06] 45.135.232.80:60722 requesting tcp connection on 164.90.157.200:2332.
+[2022-03-30 15:02:06] 62.233.50.171:43056 requesting tcp connection on 164.90.157.200:3122.
+[2022-03-30 15:02:16] ->  2069/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:02:28] 124.223.119.52:46542 requesting tcp connection on 164.90.157.200:2375.
+[2022-03-30 15:02:28]     2375/tcp  Handling tcp connection request from 124.223.119.52:46542 to 164.90.157.200:2375.
+[2022-03-30 15:02:28]     2375/tcp* 129 bytes read.
+[2022-03-30 15:02:29]     2375/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:02:29]     2375/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:02:29]  *  2375/tcp  129 bytes attack string from 124.223.119.52:46542.
+[2022-03-30 15:02:31] 62.233.50.177:43130 requesting tcp connection on 164.90.157.200:3847.
+[2022-03-30 15:02:32] 79.124.62.34:51525 requesting tcp connection on 164.90.157.200:3394.
+[2022-03-30 15:03:00] 193.27.228.217:54734 requesting tcp connection on 164.90.157.200:53768.
+[2022-03-30 15:03:04] 192.241.214.247:56409 requesting tcp connection on 164.90.157.200:2000.
+[2022-03-30 15:03:07] -> 33389/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:03:08] ->  7894/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:03:08] -> 53389/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:03:08] -> 57433/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:03:13] ->  3403/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:03:16] ->  2376/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:03:32] -> 33089/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:03:35] 193.56.146.28:64377 requesting tcp connection on 164.90.157.200:2746.
+[2022-03-30 15:03:35]     2746/tcp  Handling tcp connection request from 193.56.146.28:64377 to 164.90.157.200:2746.
+[2022-03-30 15:03:35]     2746/tcp* 47 bytes read.
+[2022-03-30 15:03:35] ->  8010/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:03:36]     2746/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:03:36]     2746/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:03:36]  *  2746/tcp  47 bytes attack string from 193.56.146.28:64377.
+[2022-03-30 15:03:39] 194.165.16.25:53898 requesting tcp connection on 164.90.157.200:35433.
+[2022-03-30 15:03:41] ->  8020/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:03:43] ->  2883/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:03:46] ->  3379/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:03:46] 66.240.192.138:34490 requesting tcp connection on 164.90.157.200:8010.
+[2022-03-30 15:03:46]     8010/tcp  Handling tcp connection request from 66.240.192.138:34490 to 164.90.157.200:8010.
+[2022-03-30 15:03:46]     8010/tcp* 254 bytes read.
+[2022-03-30 15:03:47]     8010/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:03:47]     8010/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:03:47]  *  8010/tcp  254 bytes attack string from 66.240.192.138:34490.
+[2022-03-30 15:03:47] 66.240.192.138:35040 requesting tcp connection on 164.90.157.200:8010.
+[2022-03-30 15:03:47]     8010/tcp  Handling tcp connection request from 66.240.192.138:35040 to 164.90.157.200:8010.
+[2022-03-30 15:03:47]     8010/tcp* 40 bytes read.
+[2022-03-30 15:03:48]     8010/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:03:48]     8010/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:03:48]  *  8010/tcp  40 bytes attack string from 66.240.192.138:35040.
+[2022-03-30 15:03:50] 35.233.62.116:41754 requesting tcp connection on 164.90.157.200:8010.
+[2022-03-30 15:03:50]     8010/tcp  Handling tcp connection request from 35.233.62.116:41754 to 164.90.157.200:8010.
+[2022-03-30 15:03:50]     8010/tcp* 265 bytes read.
+[2022-03-30 15:03:51]     8010/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:03:51]     8010/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:03:51]  *  8010/tcp  265 bytes attack string from 35.233.62.116:41754.
+[2022-03-30 15:03:54] ->  5986/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:04:01] -> 16052/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:04:03] 45.135.232.85:49717 requesting tcp connection on 164.90.157.200:434.
+[2022-03-30 15:04:06] ->  2332/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:04:06] ->  3122/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:04:24] 79.124.62.130:51534 requesting tcp connection on 164.90.157.200:54063.
+[2022-03-30 15:04:28] 183.136.225.42:35616 requesting tcp connection on 164.90.157.200:512.
+[2022-03-30 15:04:29] ->  2375/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:04:31] 62.233.50.177:43130 requesting tcp connection on 164.90.157.200:4944.
+[2022-03-30 15:04:31] ->  3847/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:04:33] ->  3394/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:04:35] 193.56.146.28:64283 requesting tcp connection on 164.90.157.200:2744.
+[2022-03-30 15:04:35]     2744/tcp  Handling tcp connection request from 193.56.146.28:64283 to 164.90.157.200:2744.
+[2022-03-30 15:04:35]     2744/tcp* 47 bytes read.
+[2022-03-30 15:04:36]     2744/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:04:36]     2744/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:04:36]  *  2744/tcp  47 bytes attack string from 193.56.146.28:64283.
+[2022-03-30 15:04:41] 58.62.55.20:57716 requesting tcp connection on 164.90.157.200:8389.
+[2022-03-30 15:04:51] 104.237.147.167:61000 requesting tcp connection on 164.90.157.200:636.
+[2022-03-30 15:04:57] 185.156.73.107:55074 requesting tcp connection on 164.90.157.200:3484.
+[2022-03-30 15:04:57] 222.85.140.63:54631 requesting tcp connection on 164.90.157.200:21233.
+[2022-03-30 15:05:00] -> 53768/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:05:05] ->  2000/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:05:14] 91.240.118.37:51536 requesting tcp connection on 164.90.157.200:3790.
+[2022-03-30 15:05:36] ->  2746/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:05:39] -> 35433/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:05:40] 45.155.205.44:50653 requesting tcp connection on 164.90.157.200:4126.
+[2022-03-30 15:05:45] 167.94.145.25:56010 requesting tcp connection on 164.90.157.200:1481.
+[2022-03-30 15:05:45] 167.94.145.57:34052 requesting tcp connection on 164.90.157.200:1481.
+[2022-03-30 15:05:45]     1481/tcp  Handling tcp connection request from 167.94.145.57:34052 to 164.90.157.200:1481.
+[2022-03-30 15:05:46]     1481/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:05:46]     1481/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:05:46] 167.94.145.57:36898 requesting tcp connection on 164.90.157.200:1481.
+[2022-03-30 15:05:46]  *  1481/tcp  No bytes received from 167.94.145.57:34052.
+[2022-03-30 15:05:47]     1481/tcp  Handling tcp connection request from 167.94.145.57:36898 to 164.90.157.200:1481.
+[2022-03-30 15:05:47]     1481/tcp* 243 bytes read.
+[2022-03-30 15:05:48]     1481/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:05:48]     1481/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:05:48]  *  1481/tcp  243 bytes attack string from 167.94.145.57:36898.
+[2022-03-30 15:05:48] 167.94.145.57:44534 requesting tcp connection on 164.90.157.200:1481.
+[2022-03-30 15:05:48]     1481/tcp  Handling tcp connection request from 167.94.145.57:44534 to 164.90.157.200:1481.
+[2022-03-30 15:05:49]     1481/tcp* 45 bytes read.
+[2022-03-30 15:05:50]     1481/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:05:50]     1481/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:05:50]  *  1481/tcp  45 bytes attack string from 167.94.145.57:44534.
+[2022-03-30 15:05:51] ->  8010/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:06:10] 192.241.214.247:38434 requesting tcp connection on 164.90.157.200:2000.
+[2022-03-30 15:06:10]     2000/tcp  Handling tcp connection request from 192.241.214.247:38434 to 164.90.157.200:2000.
+[2022-03-30 15:06:11]     2000/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:06:11]     2000/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:06:11]  *  2000/tcp  No bytes received from 192.241.214.247:38434.
+[2022-03-30 15:06:18] 193.56.146.28:64803 requesting tcp connection on 164.90.157.200:5482.
+[2022-03-30 15:06:18]     5482/tcp  Handling tcp connection request from 193.56.146.28:64803 to 164.90.157.200:5482.
+[2022-03-30 15:06:18]     5482/tcp* 47 bytes read.
+[2022-03-30 15:06:19]     5482/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:06:19]     5482/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:06:19]  *  5482/tcp  47 bytes attack string from 193.56.146.28:64803.
+[2022-03-30 15:06:23] 167.248.133.133:51090 requesting tcp connection on 164.90.157.200:5672.
+[2022-03-30 15:06:23] 167.248.133.118:55320 requesting tcp connection on 164.90.157.200:5672.
+[2022-03-30 15:06:23]     5672/tcp  Handling tcp connection request from 167.248.133.118:55320 to 164.90.157.200:5672.
+[2022-03-30 15:06:23]     5672/tcp* 8 bytes read.
+[2022-03-30 15:06:24] -> 54063/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:06:24]     5672/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:06:24]     5672/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:06:24]  *  5672/tcp  8 bytes attack string from 167.248.133.118:55320.
+[2022-03-30 15:06:24] 167.248.133.118:42156 requesting tcp connection on 164.90.157.200:5672.
+[2022-03-30 15:06:24]     5672/tcp  Handling tcp connection request from 167.248.133.118:42156 to 164.90.157.200:5672.
+[2022-03-30 15:06:25]     5672/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:06:25]     5672/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:06:25]  *  5672/tcp  No bytes received from 167.248.133.118:42156.
+[2022-03-30 15:06:25] 162.142.125.252:9460 requesting tcp connection on 164.90.157.200:4770.
+[2022-03-30 15:06:25] 162.142.125.160:5189 requesting tcp connection on 164.90.157.200:5672.
+[2022-03-30 15:06:31] ->  4944/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:06:36] ->  2744/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:06:40] 192.241.225.71:37050 requesting tcp connection on 164.90.157.200:5986.
+[2022-03-30 15:06:40]     5986/tcp  Handling tcp connection request from 192.241.225.71:37050 to 164.90.157.200:5986.
+[2022-03-30 15:06:41] ->  8389/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:06:41]     5986/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:06:41]     5986/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:06:41]  *  5986/tcp  No bytes received from 192.241.225.71:37050.
+[2022-03-30 15:06:43] 162.142.125.7:55466 requesting tcp connection on 164.90.157.200:4770.
+[2022-03-30 15:06:44]     4770/tcp  Handling tcp connection request from 162.142.125.7:55466 to 164.90.157.200:4770.
+[2022-03-30 15:06:45]     4770/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:06:45]     4770/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:06:45]  *  4770/tcp  No bytes received from 162.142.125.7:55466.
+[2022-03-30 15:06:45] 162.142.125.160:5189 requesting tcp connection on 164.90.157.200:4770.
+[2022-03-30 15:06:50] 194.165.16.72:36658 requesting tcp connection on 164.90.157.200:26669.
+[2022-03-30 15:06:51] Error - Could not get client info from socket: Transport endpoint is not connected.
+[2022-03-30 15:06:51] 194.165.16.72:38489 requesting tcp connection on 164.90.157.200:26669.
+[2022-03-30 15:06:51] Warning - Process 119 exited on failure.
+[2022-03-30 15:06:51]    26669/tcp  Handling tcp connection request from 194.165.16.72:38489 to 164.90.157.200:26669.
+[2022-03-30 15:06:51]    26669/tcp* 44 bytes read.
+[2022-03-30 15:06:52]    26669/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:06:52]    26669/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:06:52]  * 26669/tcp  44 bytes attack string from 194.165.16.72:38489.
+[2022-03-30 15:06:52] 194.165.16.72:50852 requesting tcp connection on 164.90.157.200:26669.
+[2022-03-30 15:06:52]    26669/tcp  Handling tcp connection request from 194.165.16.72:50852 to 164.90.157.200:26669.
+[2022-03-30 15:06:52]    26669/tcp* 44 bytes read.
+[2022-03-30 15:06:53]    26669/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:06:53]    26669/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:06:53]  * 26669/tcp  44 bytes attack string from 194.165.16.72:50852.
+[2022-03-30 15:06:57] ->  3484/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:06:57] -> 21233/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:07:01] 62.233.50.171:43056 requesting tcp connection on 164.90.157.200:1143.
+[2022-03-30 15:07:02] 193.56.146.28:65510 requesting tcp connection on 164.90.157.200:1124.
+[2022-03-30 15:07:02]     1124/tcp  Handling tcp connection request from 193.56.146.28:65510 to 164.90.157.200:1124.
+[2022-03-30 15:07:02]     1124/tcp* 47 bytes read.
+[2022-03-30 15:07:03]     1124/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:07:03]     1124/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:07:03]  *  1124/tcp  47 bytes attack string from 193.56.146.28:65510.
+[2022-03-30 15:07:14] ->  3790/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:07:21] 193.27.228.217:54734 requesting tcp connection on 164.90.157.200:49767.
+[2022-03-30 15:07:40] ->  4126/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:07:42] 193.56.146.28:63835 requesting tcp connection on 164.90.157.200:5343.
+[2022-03-30 15:07:42]     5343/tcp  Handling tcp connection request from 193.56.146.28:63835 to 164.90.157.200:5343.
+[2022-03-30 15:07:42]     5343/tcp* 47 bytes read.
+[2022-03-30 15:07:43]     5343/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:07:43]     5343/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:07:43]  *  5343/tcp  47 bytes attack string from 193.56.146.28:63835.
+[2022-03-30 15:07:50] ->  1481/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:08:11] ->  2000/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:08:14] 162.142.125.250:54938 requesting tcp connection on 164.90.157.200:56573.
+[2022-03-30 15:08:14] 162.142.125.211:36174 requesting tcp connection on 164.90.157.200:56573.
+[2022-03-30 15:08:14]    56573/tcp  Handling tcp connection request from 162.142.125.211:36174 to 164.90.157.200:56573.
+[2022-03-30 15:08:15]    56573/tcp  Could not read data: No such file or directory.
+[2022-03-30 15:08:15] 162.142.125.211:47004 requesting tcp connection on 164.90.157.200:56573.
+[2022-03-30 15:08:15]  * 56573/tcp  No bytes received from 162.142.125.211:36174.
+[2022-03-30 15:08:15]    56573/tcp  Handling tcp connection request from 162.142.125.211:47004 to 164.90.157.200:56573.
+[2022-03-30 15:08:15]    56573/tcp* 243 bytes read.
+[2022-03-30 15:08:16]    56573/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:08:16]    56573/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:08:16]  * 56573/tcp  243 bytes attack string from 162.142.125.211:47004.
+[2022-03-30 15:08:16] 162.142.125.211:51542 requesting tcp connection on 164.90.157.200:56573.
+[2022-03-30 15:08:16]    56573/tcp  Handling tcp connection request from 162.142.125.211:51542 to 164.90.157.200:56573.
+[2022-03-30 15:08:17]    56573/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:08:17]    56573/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:08:17]  * 56573/tcp  No bytes received from 162.142.125.211:51542.
+[2022-03-30 15:08:17] 162.142.125.160:5189 requesting tcp connection on 164.90.157.200:56573.
+[2022-03-30 15:08:19] 185.156.73.107:55074 requesting tcp connection on 164.90.157.200:3478.
+[2022-03-30 15:08:19] ->  5482/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:08:25] ->  5672/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:08:41] ->  5986/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:08:45] ->  4770/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:08:53] -> 26669/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:09:01] ->  1143/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:09:02] 62.233.50.173:43258 requesting tcp connection on 164.90.157.200:7976.
+[2022-03-30 15:09:03] ->  1124/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:09:21] -> 49767/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:09:43] ->  5343/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:09:58] 124.162.151.13:35382 requesting tcp connection on 164.90.157.200:48408.
+[2022-03-30 15:10:12] 62.233.50.173:43258 requesting tcp connection on 164.90.157.200:9917.
+[2022-03-30 15:10:17] -> 56573/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:10:18] 172.105.89.223:39713 requesting tcp connection on 164.90.157.200:2082.
+[2022-03-30 15:10:19] ->  3478/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:10:30] 79.124.62.110:51528 requesting tcp connection on 164.90.157.200:3382.
+[2022-03-30 15:10:31] 60.191.125.35:34858 requesting tcp connection on 164.90.157.200:8888.
+[2022-03-30 15:10:34] 91.240.118.75:49734 requesting tcp connection on 164.90.157.200:2249.
+[2022-03-30 15:10:47] 60.191.125.35:60092 requesting tcp connection on 164.90.157.200:8888.
+[2022-03-30 15:10:47]     8888/tcp  Handling tcp connection request from 60.191.125.35:60092 to 164.90.157.200:8888.
+[2022-03-30 15:10:47]     8888/tcp  Connection closed by foreign host.
+[2022-03-30 15:10:47]  *  8888/tcp  No bytes received from 60.191.125.35:60092.
+[2022-03-30 15:10:47] 60.191.125.35:60580 requesting tcp connection on 164.90.157.200:8888.
+[2022-03-30 15:10:47]     8888/tcp  Handling tcp connection request from 60.191.125.35:60580 to 164.90.157.200:8888.
+[2022-03-30 15:10:47]     8888/tcp* 364 bytes read.
+[2022-03-30 15:10:48]     8888/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:10:48]     8888/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:10:48]  *  8888/tcp  364 bytes attack string from 60.191.125.35:60580.
+[2022-03-30 15:10:48] 60.191.125.35:33218 requesting tcp connection on 164.90.157.200:8888.
+[2022-03-30 15:10:48]     8888/tcp  Handling tcp connection request from 60.191.125.35:33218 to 164.90.157.200:8888.
+[2022-03-30 15:10:48]     8888/tcp* 364 bytes read.
+[2022-03-30 15:10:49] 175.184.165.182:58394 requesting tcp connection on 164.90.157.200:8888.
+[2022-03-30 15:10:49] 123.245.25.214:58444 requesting tcp connection on 164.90.157.200:8888.
+[2022-03-30 15:10:49]     8888/tcp  Handling tcp connection request from 175.184.165.182:58394 to 164.90.157.200:8888.
+[2022-03-30 15:10:49]     8888/tcp  Connection closed by foreign host.
+[2022-03-30 15:10:49]  *  8888/tcp  No bytes received from 175.184.165.182:58394.
+[2022-03-30 15:10:49]     8888/tcp  Handling tcp connection request from 123.245.25.214:58444 to 164.90.157.200:8888.
+[2022-03-30 15:10:49]     8888/tcp* 490 bytes read.
+[2022-03-30 15:10:49]     8888/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:10:49]     8888/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:10:49]  *  8888/tcp  364 bytes attack string from 60.191.125.35:33218.
+[2022-03-30 15:10:50]     8888/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:10:50]     8888/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:10:50]  *  8888/tcp  490 bytes attack string from 123.245.25.214:58444.
+[2022-03-30 15:11:00] 91.240.118.77:49784 requesting tcp connection on 164.90.157.200:5286.
+[2022-03-30 15:11:02] ->  7976/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:11:12] 79.124.62.130:51534 requesting tcp connection on 164.90.157.200:3380.
+[2022-03-30 15:11:12] 91.240.118.17:46347 requesting tcp connection on 164.90.157.200:16869.
+[2022-03-30 15:11:12] 193.163.125.131:58284 requesting tcp connection on 164.90.157.200:19956.
+[2022-03-30 15:11:36] 45.137.21.208:60151 requesting tcp connection on 164.90.157.200:54623.
+[2022-03-30 15:11:36] 45.137.21.208:52108 requesting tcp connection on 164.90.157.200:54623.
+[2022-03-30 15:11:37]    54623/tcp  Handling tcp connection request from 45.137.21.208:52108 to 164.90.157.200:54623.
+[2022-03-30 15:11:37]    54623/tcp* 110 bytes read.
+[2022-03-30 15:11:38]    54623/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:11:38]    54623/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:11:38]  * 54623/tcp  110 bytes attack string from 45.137.21.208:52108.
+[2022-03-30 15:11:51] 79.124.62.86:51522 requesting tcp connection on 164.90.157.200:4002.
+[2022-03-30 15:11:54] 193.56.146.28:64879 requesting tcp connection on 164.90.157.200:2369.
+[2022-03-30 15:11:54]     2369/tcp  Handling tcp connection request from 193.56.146.28:64879 to 164.90.157.200:2369.
+[2022-03-30 15:11:54]     2369/tcp* 47 bytes read.
+[2022-03-30 15:11:55]     2369/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:11:55]     2369/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:11:55]  *  2369/tcp  47 bytes attack string from 193.56.146.28:64879.
+[2022-03-30 15:11:58] -> 48408/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:11:59] 62.233.50.173:43258 requesting tcp connection on 164.90.157.200:7773.
+[2022-03-30 15:12:02] 34.125.219.5:47627 requesting tcp connection on 164.90.157.200:587.
+[2022-03-30 15:12:12] ->  9917/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:12:18] 91.240.118.87:46400 requesting tcp connection on 164.90.157.200:2429.
+[2022-03-30 15:12:18] 79.124.62.130:51534 requesting tcp connection on 164.90.157.200:4489.
+[2022-03-30 15:12:18] ->  2082/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:12:30] ->  3382/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:12:31] 79.124.62.34:51525 requesting tcp connection on 164.90.157.200:4004.
+[2022-03-30 15:12:34] ->  2249/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:12:39] 62.233.50.173:43258 requesting tcp connection on 164.90.157.200:9656.
+[2022-03-30 15:12:50] ->  8888/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:12:56] 78.128.113.94:50380 requesting tcp connection on 164.90.157.200:23464.
+[2022-03-30 15:12:59] 62.233.50.171:43056 requesting tcp connection on 164.90.157.200:1854.
+[2022-03-30 15:13:00] ->  5286/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:13:04] 91.240.118.81:48819 requesting tcp connection on 164.90.157.200:2337.
+[2022-03-30 15:13:11] 185.180.143.95:38484 requesting tcp connection on 164.90.157.200:8880.
+[2022-03-30 15:13:12] ->  3380/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:13:12] 185.180.143.76:45908 requesting tcp connection on 164.90.157.200:8880.
+[2022-03-30 15:13:12]     8880/tcp  Handling tcp connection request from 185.180.143.76:45908 to 164.90.157.200:8880.
+[2022-03-30 15:13:12]     8880/tcp* 206 bytes read.
+[2022-03-30 15:13:12] -> 16869/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:13:13] -> 19956/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:13:13]     8880/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:13:13]     8880/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:13:13]  *  8880/tcp  206 bytes attack string from 185.180.143.76:45908.
+[2022-03-30 15:13:13] 185.180.143.76:47286 requesting tcp connection on 164.90.157.200:8880.
+[2022-03-30 15:13:13]     8880/tcp  Handling tcp connection request from 185.180.143.76:47286 to 164.90.157.200:8880.
+[2022-03-30 15:13:13]     8880/tcp* 182 bytes read.
+[2022-03-30 15:13:14]     8880/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:13:14]     8880/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:13:14]  *  8880/tcp  182 bytes attack string from 185.180.143.76:47286.
+[2022-03-30 15:13:15] 185.180.143.76:48490 requesting tcp connection on 164.90.157.200:8880.
+[2022-03-30 15:13:15]     8880/tcp  Handling tcp connection request from 185.180.143.76:48490 to 164.90.157.200:8880.
+[2022-03-30 15:13:16]     8880/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:13:16]     8880/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:13:16]  *  8880/tcp  No bytes received from 185.180.143.76:48490.
+[2022-03-30 15:13:16] 185.180.143.76:49486 requesting tcp connection on 164.90.157.200:8880.
+[2022-03-30 15:13:16]     8880/tcp  Handling tcp connection request from 185.180.143.76:49486 to 164.90.157.200:8880.
+[2022-03-30 15:13:16]     8880/tcp* 12 bytes read.
+[2022-03-30 15:13:17]     8880/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:13:17]     8880/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:13:17]  *  8880/tcp  12 bytes attack string from 185.180.143.76:49486.
+[2022-03-30 15:13:17] 185.180.143.76:50778 requesting tcp connection on 164.90.157.200:8880.
+[2022-03-30 15:13:17]     8880/tcp  Handling tcp connection request from 185.180.143.76:50778 to 164.90.157.200:8880.
+[2022-03-30 15:13:17] 80.82.77.144:55906 requesting tcp connection on 164.90.157.200:2001.
+[2022-03-30 15:13:18]     8880/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:13:18]     8880/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:13:18]  *  8880/tcp  No bytes received from 185.180.143.76:50778.
+[2022-03-30 15:13:18] 185.180.143.76:52208 requesting tcp connection on 164.90.157.200:8880.
+[2022-03-30 15:13:18]     8880/tcp  Handling tcp connection request from 185.180.143.76:52208 to 164.90.157.200:8880.
+[2022-03-30 15:13:18]     8880/tcp* 159 bytes read.
+[2022-03-30 15:13:19]     8880/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:13:19]     8880/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:13:19]  *  8880/tcp  159 bytes attack string from 185.180.143.76:52208.
+[2022-03-30 15:13:19] 185.180.143.95:42555 requesting tcp connection on 164.90.157.200:8880.
+[2022-03-30 15:13:19]     8880/tcp  Handling tcp connection request from 185.180.143.95:42555 to 164.90.157.200:8880.
+[2022-03-30 15:13:19]     8880/tcp* 48 bytes read.
+[2022-03-30 15:13:20]     8880/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:13:20]     8880/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:13:20]  *  8880/tcp  48 bytes attack string from 185.180.143.95:42555.
+[2022-03-30 15:13:20] 185.180.143.76:55206 requesting tcp connection on 164.90.157.200:8880.
+[2022-03-30 15:13:21]     8880/tcp  Handling tcp connection request from 185.180.143.76:55206 to 164.90.157.200:8880.
+[2022-03-30 15:13:22]     8880/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:13:22]     8880/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:13:22]  *  8880/tcp  No bytes received from 185.180.143.76:55206.
+[2022-03-30 15:13:36] 79.124.62.82:51520 requesting tcp connection on 164.90.157.200:3383.
+[2022-03-30 15:13:38] -> 54623/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:13:51] 162.142.125.250:20066 requesting tcp connection on 164.90.157.200:534.
+[2022-03-30 15:13:51] ->  4002/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:13:53] 45.155.204.137:42346 requesting tcp connection on 164.90.157.200:19143.
+[2022-03-30 15:13:55] 45.155.205.46:50686 requesting tcp connection on 164.90.157.200:18913.
+[2022-03-30 15:13:55] ->  2369/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:13:59] ->  7773/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:13:59] 94.232.45.43:49916 requesting tcp connection on 164.90.157.200:51643.
+[2022-03-30 15:14:10] 193.56.146.28:64913 requesting tcp connection on 164.90.157.200:5403.
+[2022-03-30 15:14:10]     5403/tcp  Handling tcp connection request from 193.56.146.28:64913 to 164.90.157.200:5403.
+[2022-03-30 15:14:10]     5403/tcp* 47 bytes read.
+[2022-03-30 15:14:11]     5403/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:14:11]     5403/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:14:11]  *  5403/tcp  47 bytes attack string from 193.56.146.28:64913.
+[2022-03-30 15:14:18] ->  2429/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:14:18] ->  4489/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:14:19] 79.124.62.34:51525 requesting tcp connection on 164.90.157.200:23389.
+[2022-03-30 15:14:31] ->  4004/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:14:31] 158.51.124.111:50721 requesting tcp connection on 164.90.157.200:11211.
+[2022-03-30 15:14:39] ->  9656/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:14:40] 162.142.125.252:22048 requesting tcp connection on 164.90.157.200:211.
+[2022-03-30 15:14:49] 167.248.133.164:33716 requesting tcp connection on 164.90.157.200:21258.
+[2022-03-30 15:14:49] 167.248.133.120:43762 requesting tcp connection on 164.90.157.200:21258.
+[2022-03-30 15:14:49]    21258/tcp  Handling tcp connection request from 167.248.133.120:43762 to 164.90.157.200:21258.
+[2022-03-30 15:14:50] 194.165.16.72:36418 requesting tcp connection on 164.90.157.200:25119.
+[2022-03-30 15:14:50] 62.233.50.177:43130 requesting tcp connection on 164.90.157.200:3431.
+[2022-03-30 15:14:50]    21258/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:14:50]    21258/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:14:50]  * 21258/tcp  No bytes received from 167.248.133.120:43762.
+[2022-03-30 15:14:50] Error - Could not get client info from socket: Transport endpoint is not connected.
+[2022-03-30 15:14:50] 194.165.16.72:38058 requesting tcp connection on 164.90.157.200:25119.
+[2022-03-30 15:14:50] Warning - Process 206 exited on failure.
+[2022-03-30 15:14:50]    25119/tcp  Handling tcp connection request from 194.165.16.72:38058 to 164.90.157.200:25119.
+[2022-03-30 15:14:50]    25119/tcp* 44 bytes read.
+[2022-03-30 15:14:51] 162.142.125.160:5189 requesting tcp connection on 164.90.157.200:21258.
+[2022-03-30 15:14:51]    25119/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:14:51]    25119/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:14:51]  * 25119/tcp  44 bytes attack string from 194.165.16.72:38058.
+[2022-03-30 15:14:52] 194.165.16.72:50147 requesting tcp connection on 164.90.157.200:25119.
+[2022-03-30 15:14:52]    25119/tcp  Handling tcp connection request from 194.165.16.72:50147 to 164.90.157.200:25119.
+[2022-03-30 15:14:52]    25119/tcp* 44 bytes read.
+[2022-03-30 15:14:52] 45.155.205.41:50469 requesting tcp connection on 164.90.157.200:2893.
+[2022-03-30 15:14:53]    25119/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:14:53]    25119/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:14:53]  * 25119/tcp  44 bytes attack string from 194.165.16.72:50147.
+[2022-03-30 15:14:56] -> 23464/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:14:59] ->  1854/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:15:05] ->  2337/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:15:18] ->  2001/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:15:18] 167.94.146.26:32898 requesting tcp connection on 164.90.157.200:19134.
+[2022-03-30 15:15:18] 167.94.146.57:39478 requesting tcp connection on 164.90.157.200:19134.
+[2022-03-30 15:15:18]    19134/tcp  Handling tcp connection request from 167.94.146.57:39478 to 164.90.157.200:19134.
+[2022-03-30 15:15:19] 167.94.146.57:44788 requesting tcp connection on 164.90.157.200:19134.
+[2022-03-30 15:15:19]    19134/tcp  Could not read data: No such file or directory.
+[2022-03-30 15:15:19]  * 19134/tcp  No bytes received from 167.94.146.57:39478.
+[2022-03-30 15:15:19]    19134/tcp  Handling tcp connection request from 167.94.146.57:44788 to 164.90.157.200:19134.
+[2022-03-30 15:15:19]    19134/tcp* 243 bytes read.
+[2022-03-30 15:15:20]    19134/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:15:20]    19134/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:15:20]  * 19134/tcp  243 bytes attack string from 167.94.146.57:44788.
+[2022-03-30 15:15:20] 167.94.146.57:54300 requesting tcp connection on 164.90.157.200:19134.
+[2022-03-30 15:15:21]    19134/tcp  Handling tcp connection request from 167.94.146.57:54300 to 164.90.157.200:19134.
+[2022-03-30 15:15:22]    19134/tcp* 46 bytes read.
+[2022-03-30 15:15:22] ->  8880/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:15:23]    19134/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:15:23]    19134/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:15:23]  * 19134/tcp  46 bytes attack string from 167.94.146.57:54300.
+[2022-03-30 15:15:34] 43.129.33.99:17801 requesting tcp connection on 164.90.157.200:9179.
+[2022-03-30 15:15:34] 43.129.33.99:56812 requesting tcp connection on 164.90.157.200:9179.
+[2022-03-30 15:15:35]     9179/tcp  Handling tcp connection request from 43.129.33.99:56812 to 164.90.157.200:9179.
+[2022-03-30 15:15:35]     9179/tcp* 243 bytes read.
+[2022-03-30 15:15:36]     9179/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:15:36]     9179/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:15:36]  *  9179/tcp  243 bytes attack string from 43.129.33.99:56812.
+[2022-03-30 15:15:36] ->  3383/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:15:46] 43.129.33.99:18856 requesting tcp connection on 164.90.157.200:9179.
+[2022-03-30 15:15:46]     9179/tcp  Handling tcp connection request from 43.129.33.99:18856 to 164.90.157.200:9179.
+[2022-03-30 15:15:46]     9179/tcp* 83 bytes read.
+[2022-03-30 15:15:47]     9179/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:15:47]     9179/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:15:47]  *  9179/tcp  83 bytes attack string from 43.129.33.99:18856.
+[2022-03-30 15:15:53] -> 19143/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:15:56] -> 18913/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:15:57] 91.240.118.17:46347 requesting tcp connection on 164.90.157.200:16784.
+[2022-03-30 15:15:58] 43.129.33.99:30818 requesting tcp connection on 164.90.157.200:9179.
+[2022-03-30 15:15:58]     9179/tcp  Handling tcp connection request from 43.129.33.99:30818 to 164.90.157.200:9179.
+[2022-03-30 15:15:58]     9179/tcp* 19 bytes read.
+[2022-03-30 15:15:59]     9179/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:15:59]     9179/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:15:59]  *  9179/tcp  19 bytes attack string from 43.129.33.99:30818.
+[2022-03-30 15:15:59] deUnicode - Attack string seems to contain unicode encoded data, decoding it.
+[2022-03-30 15:15:59] deUnicode - Processing decoded attack.
+[2022-03-30 15:15:59] deUnicode - Attack string seems to contain unicode encoded data, decoding it.
+[2022-03-30 15:15:59] deUnicode - Processing decoded attack.
+[2022-03-30 15:15:59] -> 51643/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:16:11] ->  5403/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:16:19] -> 23389/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:16:21] 62.233.50.173:43258 requesting tcp connection on 164.90.157.200:5438.
+[2022-03-30 15:16:32] -> 11211/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:16:50] ->  3431/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:16:50] -> 21258/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:16:52] -> 25119/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:16:52] ->  2893/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:17:23] -> 19134/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:17:32] 117.199.27.19:52336 requesting tcp connection on 164.90.157.200:7574.
+[2022-03-30 15:17:32]     7574/tcp  Handling tcp connection request from 117.199.27.19:52336 to 164.90.157.200:7574.
+[2022-03-30 15:17:33]     7574/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:17:33]     7574/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:17:33]  *  7574/tcp  No bytes received from 117.199.27.19:52336.
+[2022-03-30 15:17:53] 62.233.50.171:43056 requesting tcp connection on 164.90.157.200:2323.
+[2022-03-30 15:17:57] -> 16784/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:17:59] ->  9179/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:17:59] 62.233.50.173:43258 requesting tcp connection on 164.90.157.200:8928.
+[2022-03-30 15:18:21] ->  5438/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:18:43] 91.240.118.17:46347 requesting tcp connection on 164.90.157.200:16903.
+[2022-03-30 15:19:01] 193.163.125.184:33820 requesting tcp connection on 164.90.157.200:9003.
+[2022-03-30 15:19:22] 62.233.50.173:43258 requesting tcp connection on 164.90.157.200:5125.
+[2022-03-30 15:19:33] ->  7574/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:19:43] 193.163.125.158:34324 requesting tcp connection on 164.90.157.200:28017.
+[2022-03-30 15:19:43] 45.135.232.80:42844 requesting tcp connection on 164.90.157.200:2154.
+[2022-03-30 15:19:53] ->  2323/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:19:57] 192.241.214.41:60457 requesting tcp connection on 164.90.157.200:5223.
+[2022-03-30 15:19:58] 79.124.62.86:51522 requesting tcp connection on 164.90.157.200:3384.
+[2022-03-30 15:19:59] ->  8928/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:20:43] -> 16903/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:20:49] 62.233.50.171:43056 requesting tcp connection on 164.90.157.200:1119.
+[2022-03-30 15:20:54] 64.62.197.200:54839 requesting tcp connection on 164.90.157.200:2222.
+[2022-03-30 15:21:01] ->  9003/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:21:16] 64.62.197.182:18266 requesting tcp connection on 164.90.157.200:2222.
+[2022-03-30 15:21:16]     2222/tcp  Handling tcp connection request from 64.62.197.182:18266 to 164.90.157.200:2222.
+[2022-03-30 15:21:16]     2222/tcp* 24 bytes read.
+[2022-03-30 15:21:17]     2222/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:21:17]     2222/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:21:17]  *  2222/tcp  24 bytes attack string from 64.62.197.182:18266.
+[2022-03-30 15:21:17] deUnicode - Attack string seems to contain unicode encoded data, decoding it.
+[2022-03-30 15:21:17] deUnicode - Processing decoded attack.
+[2022-03-30 15:21:17] deUnicode - Attack string seems to contain unicode encoded data, decoding it.
+[2022-03-30 15:21:17] deUnicode - Processing decoded attack.
+[2022-03-30 15:21:17] deUnicode - Attack string seems to contain unicode encoded data, decoding it.
+[2022-03-30 15:21:17] deUnicode - Processing decoded attack.
+[2022-03-30 15:21:22] ->  5125/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:21:38] 192.241.225.22:52157 requesting tcp connection on 164.90.157.200:7002.
+[2022-03-30 15:21:43] -> 28017/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:21:44] ->  2154/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:21:57] ->  5223/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:21:58] ->  3384/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:21:58] 45.134.144.26:53673 requesting tcp connection on 164.90.157.200:6061.
+[2022-03-30 15:22:49] ->  1119/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:22:49] 79.124.62.82:51520 requesting tcp connection on 164.90.157.200:3300.
+[2022-03-30 15:23:14] 45.155.205.45:50669 requesting tcp connection on 164.90.157.200:4293.
+[2022-03-30 15:23:17] ->  2222/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:23:21] 125.74.189.66:3620 requesting tcp connection on 164.90.157.200:37036.
+[2022-03-30 15:23:26] 143.244.39.9:51027 requesting tcp connection on 164.90.157.200:5901.
+[2022-03-30 15:23:26]     5901/tcp  Handling tcp connection request from 143.244.39.9:51027 to 164.90.157.200:5901.
+[2022-03-30 15:23:27]     5901/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:23:27]     5901/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:23:27]  *  5901/tcp  No bytes received from 143.244.39.9:51027.
+[2022-03-30 15:23:28] 62.233.50.173:43258 requesting tcp connection on 164.90.157.200:8285.
+[2022-03-30 15:23:39] ->  7002/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:23:45] 91.240.118.15:46279 requesting tcp connection on 164.90.157.200:16590.
+[2022-03-30 15:23:47] 194.165.16.72:19761 requesting tcp connection on 164.90.157.200:24464.
+[2022-03-30 15:23:47] Error - Could not get client info from socket: Transport endpoint is not connected.
+[2022-03-30 15:23:47] 194.165.16.72:21511 requesting tcp connection on 164.90.157.200:24464.
+[2022-03-30 15:23:47] Warning - Process 254 exited on failure.
+[2022-03-30 15:23:47] 194.165.16.72:21511 requesting tcp connection on 164.90.157.200:24464.
+[2022-03-30 15:23:48]    24464/tcp  Handling tcp connection request from 194.165.16.72:21511 to 164.90.157.200:24464.
+[2022-03-30 15:23:48]    24464/tcp* 44 bytes read.
+[2022-03-30 15:23:49]    24464/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:23:49]    24464/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:23:49]  * 24464/tcp  44 bytes attack string from 194.165.16.72:21511.
+[2022-03-30 15:23:49] 194.165.16.72:41282 requesting tcp connection on 164.90.157.200:24464.
+[2022-03-30 15:23:49]    24464/tcp  Handling tcp connection request from 194.165.16.72:41282 to 164.90.157.200:24464.
+[2022-03-30 15:23:49]    24464/tcp* 44 bytes read.
+[2022-03-30 15:23:50]    24464/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:23:50]    24464/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:23:50]  * 24464/tcp  44 bytes attack string from 194.165.16.72:41282.
+[2022-03-30 15:23:58] ->  6061/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:23:59] 192.241.214.41:47840 requesting tcp connection on 164.90.157.200:5223.
+[2022-03-30 15:23:59]     5223/tcp  Handling tcp connection request from 192.241.214.41:47840 to 164.90.157.200:5223.
+[2022-03-30 15:23:59]     5223/tcp* 159 bytes read.
+[2022-03-30 15:24:00]     5223/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:24:00]     5223/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:24:00]  *  5223/tcp  159 bytes attack string from 192.241.214.41:47840.
+[2022-03-30 15:24:03] 45.155.205.42:50617 requesting tcp connection on 164.90.157.200:2913.
+[2022-03-30 15:24:09] 61.155.9.4:57115 requesting tcp connection on 164.90.157.200:22720.
+[2022-03-30 15:24:09]    22720/tcp  Handling tcp connection request from 61.155.9.4:57115 to 164.90.157.200:22720.
+[2022-03-30 15:24:10]    22720/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:24:10]    22720/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:24:10]  * 22720/tcp  No bytes received from 61.155.9.4:57115.
+[2022-03-30 15:24:21] 62.233.50.171:43056 requesting tcp connection on 164.90.157.200:1806.
+[2022-03-30 15:24:29] 62.233.50.173:43258 requesting tcp connection on 164.90.157.200:6676.
+[2022-03-30 15:24:49] ->  3300/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:25:10] 79.124.62.78:51531 requesting tcp connection on 164.90.157.200:4490.
+[2022-03-30 15:25:13] 161.189.192.94:49000 requesting tcp connection on 164.90.157.200:2001.
+[2022-03-30 15:25:13]     2001/tcp  Handling tcp connection request from 161.189.192.94:49000 to 164.90.157.200:2001.
+[2022-03-30 15:25:13]     2001/tcp* 16 bytes read.
+[2022-03-30 15:25:14] ->  4293/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:25:14]     2001/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:25:14]     2001/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:25:14]  *  2001/tcp  16 bytes attack string from 161.189.192.94:49000.
+[2022-03-30 15:25:14] deUnicode - Attack string seems to contain unicode encoded data, decoding it.
+[2022-03-30 15:25:14] deUnicode - Processing decoded attack.
+[2022-03-30 15:25:14] deUnicode - Attack string seems to contain unicode encoded data, decoding it.
+[2022-03-30 15:25:14] deUnicode - Processing decoded attack.
+[2022-03-30 15:25:22] -> 37036/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:25:25] 62.233.50.173:43258 requesting tcp connection on 164.90.157.200:9707.
+[2022-03-30 15:25:27] ->  5901/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:25:28] ->  8285/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:25:32] 47.98.231.153:53768 requesting tcp connection on 164.90.157.200:2375.
+[2022-03-30 15:25:45] -> 16590/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:25:50] -> 24464/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:25:57] 91.240.118.17:46347 requesting tcp connection on 164.90.157.200:16940.
+[2022-03-30 15:25:57] 45.135.232.96:49844 requesting tcp connection on 164.90.157.200:5758.
+[2022-03-30 15:25:57] 79.124.62.78:51531 requesting tcp connection on 164.90.157.200:4005.
+[2022-03-30 15:25:58] 80.82.77.144:46556 requesting tcp connection on 164.90.157.200:545.
+[2022-03-30 15:26:00] ->  5223/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:26:03] ->  2913/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:26:10] -> 22720/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:26:14] 62.233.50.177:43130 requesting tcp connection on 164.90.157.200:4282.
+[2022-03-30 15:26:16] 62.233.50.173:43258 requesting tcp connection on 164.90.157.200:7374.
+[2022-03-30 15:26:21] ->  1806/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:26:29] ->  6676/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:26:34] 45.135.232.85:49717 requesting tcp connection on 164.90.157.200:467.
+[2022-03-30 15:26:44] 91.240.118.81:48819 requesting tcp connection on 164.90.157.200:2349.
+[2022-03-30 15:26:52] 192.241.225.22:57602 requesting tcp connection on 164.90.157.200:7002.
+[2022-03-30 15:26:52]     7002/tcp  Handling tcp connection request from 192.241.225.22:57602 to 164.90.157.200:7002.
+[2022-03-30 15:26:53]     7002/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:26:53]     7002/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:26:53]  *  7002/tcp  No bytes received from 192.241.225.22:57602.
+[2022-03-30 15:27:09] 45.155.204.63:50430 requesting tcp connection on 164.90.157.200:65478.
+[2022-03-30 15:27:10] ->  4490/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:27:15] ->  2001/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:27:25] ->  9707/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:27:33] ->  2375/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:27:34] 91.240.118.233:46403 requesting tcp connection on 164.90.157.200:17219.
+[2022-03-30 15:27:42] 162.142.125.86:24654 requesting tcp connection on 164.90.157.200:12497.
+[2022-03-30 15:27:42] 162.142.125.222:43852 requesting tcp connection on 164.90.157.200:12497.
+[2022-03-30 15:27:42]    12497/tcp  Handling tcp connection request from 162.142.125.222:43852 to 164.90.157.200:12497.
+[2022-03-30 15:27:43]    12497/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:27:43]    12497/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:27:43]  * 12497/tcp  No bytes received from 162.142.125.222:43852.
+[2022-03-30 15:27:44] 162.142.125.160:5189 requesting tcp connection on 164.90.157.200:12497.
+[2022-03-30 15:27:45] 216.144.125.142:8142 requesting tcp connection on 164.90.157.200:2323.
+[2022-03-30 15:27:45] 216.144.125.142:53996 requesting tcp connection on 164.90.157.200:2323.
+[2022-03-30 15:27:45]     2323/tcp  Handling tcp connection request from 216.144.125.142:53996 to 164.90.157.200:2323.
+[2022-03-30 15:27:46]     2323/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:27:46]     2323/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:27:46]  *  2323/tcp  No bytes received from 216.144.125.142:53996.
+[2022-03-30 15:27:46] 216.144.125.142:54033 requesting tcp connection on 164.90.157.200:2323.
+[2022-03-30 15:27:46]     2323/tcp  Handling tcp connection request from 216.144.125.142:54033 to 164.90.157.200:2323.
+[2022-03-30 15:27:47]     2323/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:27:47]     2323/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:27:47]  *  2323/tcp  No bytes received from 216.144.125.142:54033.
+[2022-03-30 15:27:47] 216.144.125.142:54077 requesting tcp connection on 164.90.157.200:2323.
+[2022-03-30 15:27:47]     2323/tcp  Handling tcp connection request from 216.144.125.142:54077 to 164.90.157.200:2323.
+[2022-03-30 15:27:48]     2323/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:27:48]     2323/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:27:48]  *  2323/tcp  No bytes received from 216.144.125.142:54077.
+[2022-03-30 15:27:48] 216.144.125.142:54123 requesting tcp connection on 164.90.157.200:2323.
+[2022-03-30 15:27:48]     2323/tcp  Handling tcp connection request from 216.144.125.142:54123 to 164.90.157.200:2323.
+[2022-03-30 15:27:49]     2323/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:27:49]     2323/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:27:49]  *  2323/tcp  No bytes received from 216.144.125.142:54123.
+[2022-03-30 15:27:52] 170.106.174.246:44643 requesting tcp connection on 164.90.157.200:21306.
+[2022-03-30 15:27:52] 170.106.174.246:43052 requesting tcp connection on 164.90.157.200:21306.
+[2022-03-30 15:27:52]    21306/tcp  Handling tcp connection request from 170.106.174.246:43052 to 164.90.157.200:21306.
+[2022-03-30 15:27:52]    21306/tcp* 243 bytes read.
+[2022-03-30 15:27:53] 216.144.125.142:54185 requesting tcp connection on 164.90.157.200:2323.
+[2022-03-30 15:27:53]     2323/tcp  Handling tcp connection request from 216.144.125.142:54185 to 164.90.157.200:2323.
+[2022-03-30 15:27:53]    21306/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:27:53]    21306/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:27:53]  * 21306/tcp  243 bytes attack string from 170.106.174.246:43052.
+[2022-03-30 15:27:54]     2323/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:27:54]     2323/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:27:54]  *  2323/tcp  No bytes received from 216.144.125.142:54185.
+[2022-03-30 15:27:54] 216.144.125.142:54334 requesting tcp connection on 164.90.157.200:2323.
+[2022-03-30 15:27:54]     2323/tcp  Handling tcp connection request from 216.144.125.142:54334 to 164.90.157.200:2323.
+[2022-03-30 15:27:55]     2323/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:27:55]     2323/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:27:55]  *  2323/tcp  No bytes received from 216.144.125.142:54334.
+[2022-03-30 15:27:55] 216.144.125.142:54367 requesting tcp connection on 164.90.157.200:2323.
+[2022-03-30 15:27:55]     2323/tcp  Handling tcp connection request from 216.144.125.142:54367 to 164.90.157.200:2323.
+[2022-03-30 15:27:56]     2323/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:27:56]     2323/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:27:56]  *  2323/tcp  No bytes received from 216.144.125.142:54367.
+[2022-03-30 15:27:56] 216.144.125.142:54418 requesting tcp connection on 164.90.157.200:2323.
+[2022-03-30 15:27:56]     2323/tcp  Handling tcp connection request from 216.144.125.142:54418 to 164.90.157.200:2323.
+[2022-03-30 15:27:57] -> 16940/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:27:57] ->  5758/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:27:57] ->  4005/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:27:57]     2323/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:27:57]     2323/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:27:57]  *  2323/tcp  No bytes received from 216.144.125.142:54418.
+[2022-03-30 15:27:58] 216.144.125.142:54454 requesting tcp connection on 164.90.157.200:2323.
+[2022-03-30 15:27:58]     2323/tcp  Handling tcp connection request from 216.144.125.142:54454 to 164.90.157.200:2323.
+[2022-03-30 15:27:58] 91.240.118.19:51494 requesting tcp connection on 164.90.157.200:3722.
+[2022-03-30 15:27:59]     2323/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:27:59]     2323/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:27:59]  *  2323/tcp  No bytes received from 216.144.125.142:54454.
+[2022-03-30 15:27:59] 216.144.125.142:54499 requesting tcp connection on 164.90.157.200:2323.
+[2022-03-30 15:27:59]     2323/tcp  Handling tcp connection request from 216.144.125.142:54499 to 164.90.157.200:2323.
+[2022-03-30 15:28:00]     2323/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:28:00]     2323/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:28:00]  *  2323/tcp  No bytes received from 216.144.125.142:54499.
+[2022-03-30 15:28:00] 216.144.125.142:54540 requesting tcp connection on 164.90.157.200:2323.
+[2022-03-30 15:28:00]     2323/tcp  Handling tcp connection request from 216.144.125.142:54540 to 164.90.157.200:2323.
+[2022-03-30 15:28:01]     2323/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:28:01]     2323/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:28:01]  *  2323/tcp  No bytes received from 216.144.125.142:54540.
+[2022-03-30 15:28:01] 216.144.125.142:54591 requesting tcp connection on 164.90.157.200:2323.
+[2022-03-30 15:28:01]     2323/tcp  Handling tcp connection request from 216.144.125.142:54591 to 164.90.157.200:2323.
+[2022-03-30 15:28:02]     2323/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:28:02]     2323/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:28:02]  *  2323/tcp  No bytes received from 216.144.125.142:54591.
+[2022-03-30 15:28:02] 216.144.125.142:54638 requesting tcp connection on 164.90.157.200:2323.
+[2022-03-30 15:28:03]     2323/tcp  Handling tcp connection request from 216.144.125.142:54638 to 164.90.157.200:2323.
+[2022-03-30 15:28:03] 170.106.174.246:50404 requesting tcp connection on 164.90.157.200:21306.
+[2022-03-30 15:28:03]    21306/tcp  Handling tcp connection request from 170.106.174.246:50404 to 164.90.157.200:21306.
+[2022-03-30 15:28:03]    21306/tcp* 84 bytes read.
+[2022-03-30 15:28:04]     2323/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:28:04]     2323/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:28:04]  *  2323/tcp  No bytes received from 216.144.125.142:54638.
+[2022-03-30 15:28:04] 216.144.125.142:54690 requesting tcp connection on 164.90.157.200:2323.
+[2022-03-30 15:28:04]     2323/tcp  Handling tcp connection request from 216.144.125.142:54690 to 164.90.157.200:2323.
+[2022-03-30 15:28:04]    21306/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:28:04]    21306/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:28:04]  * 21306/tcp  84 bytes attack string from 170.106.174.246:50404.
+[2022-03-30 15:28:05]     2323/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:28:05]     2323/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:28:05]  *  2323/tcp  No bytes received from 216.144.125.142:54690.
+[2022-03-30 15:28:05] 216.144.125.142:54719 requesting tcp connection on 164.90.157.200:2323.
+[2022-03-30 15:28:05]     2323/tcp  Handling tcp connection request from 216.144.125.142:54719 to 164.90.157.200:2323.
+[2022-03-30 15:28:06]     2323/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:28:06]     2323/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:28:06]  *  2323/tcp  No bytes received from 216.144.125.142:54719.
+[2022-03-30 15:28:06] 216.144.125.142:54752 requesting tcp connection on 164.90.157.200:2323.
+[2022-03-30 15:28:06]     2323/tcp  Handling tcp connection request from 216.144.125.142:54752 to 164.90.157.200:2323.
+[2022-03-30 15:28:07]     2323/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:28:07]     2323/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:28:07]  *  2323/tcp  No bytes received from 216.144.125.142:54752.
+[2022-03-30 15:28:07] 216.144.125.142:54792 requesting tcp connection on 164.90.157.200:2323.
+[2022-03-30 15:28:08]     2323/tcp  Handling tcp connection request from 216.144.125.142:54792 to 164.90.157.200:2323.
+[2022-03-30 15:28:09]     2323/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:28:09]     2323/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:28:09]  *  2323/tcp  No bytes received from 216.144.125.142:54792.
+[2022-03-30 15:28:14] ->  4282/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:28:14] 170.106.174.246:57866 requesting tcp connection on 164.90.157.200:21306.
+[2022-03-30 15:28:14]    21306/tcp  Handling tcp connection request from 170.106.174.246:57866 to 164.90.157.200:21306.
+[2022-03-30 15:28:14]    21306/tcp* 19 bytes read.
+[2022-03-30 15:28:15] 185.180.143.90:20344 requesting tcp connection on 164.90.157.200:5601.
+[2022-03-30 15:28:15]    21306/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:28:15]    21306/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:28:15]  * 21306/tcp  19 bytes attack string from 170.106.174.246:57866.
+[2022-03-30 15:28:15] deUnicode - Attack string seems to contain unicode encoded data, decoding it.
+[2022-03-30 15:28:15] deUnicode - Processing decoded attack.
+[2022-03-30 15:28:15] deUnicode - Attack string seems to contain unicode encoded data, decoding it.
+[2022-03-30 15:28:15] deUnicode - Processing decoded attack.
+[2022-03-30 15:28:16] ->  7374/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:28:27] 185.180.143.75:33320 requesting tcp connection on 164.90.157.200:5601.
+[2022-03-30 15:28:27]     5601/tcp  Handling tcp connection request from 185.180.143.75:33320 to 164.90.157.200:5601.
+[2022-03-30 15:28:27]     5601/tcp* 206 bytes read.
+[2022-03-30 15:28:28]     5601/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:28:28]     5601/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:28:28]  *  5601/tcp  206 bytes attack string from 185.180.143.75:33320.
+[2022-03-30 15:28:28] 185.180.143.75:35581 requesting tcp connection on 164.90.157.200:5601.
+[2022-03-30 15:28:28]     5601/tcp  Handling tcp connection request from 185.180.143.75:35581 to 164.90.157.200:5601.
+[2022-03-30 15:28:28]     5601/tcp* 182 bytes read.
+[2022-03-30 15:28:29]     5601/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:28:29]     5601/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:28:29]  *  5601/tcp  182 bytes attack string from 185.180.143.75:35581.
+[2022-03-30 15:28:29] 185.180.143.75:37754 requesting tcp connection on 164.90.157.200:5601.
+[2022-03-30 15:28:29]     5601/tcp  Handling tcp connection request from 185.180.143.75:37754 to 164.90.157.200:5601.
+[2022-03-30 15:28:30]     5601/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:28:30]     5601/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:28:30]  *  5601/tcp  No bytes received from 185.180.143.75:37754.
+[2022-03-30 15:28:31] 185.180.143.75:39738 requesting tcp connection on 164.90.157.200:5601.
+[2022-03-30 15:28:31]     5601/tcp  Handling tcp connection request from 185.180.143.75:39738 to 164.90.157.200:5601.
+[2022-03-30 15:28:31]     5601/tcp* 12 bytes read.
+[2022-03-30 15:28:32]     5601/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:28:32]     5601/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:28:32]  *  5601/tcp  12 bytes attack string from 185.180.143.75:39738.
+[2022-03-30 15:28:32] 185.180.143.75:42906 requesting tcp connection on 164.90.157.200:5601.
+[2022-03-30 15:28:32]     5601/tcp  Handling tcp connection request from 185.180.143.75:42906 to 164.90.157.200:5601.
+[2022-03-30 15:28:33]     5601/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:28:33]     5601/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:28:33]  *  5601/tcp  No bytes received from 185.180.143.75:42906.
+[2022-03-30 15:28:33] 185.180.143.75:45235 requesting tcp connection on 164.90.157.200:5601.
+[2022-03-30 15:28:33]     5601/tcp  Handling tcp connection request from 185.180.143.75:45235 to 164.90.157.200:5601.
+[2022-03-30 15:28:33]     5601/tcp* 159 bytes read.
+[2022-03-30 15:28:34]     5601/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:28:34]     5601/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:28:34]  *  5601/tcp  159 bytes attack string from 185.180.143.75:45235.
+[2022-03-30 15:28:34] 185.180.143.90:41783 requesting tcp connection on 164.90.157.200:5601.
+[2022-03-30 15:28:34]     5601/tcp  Handling tcp connection request from 185.180.143.90:41783 to 164.90.157.200:5601.
+[2022-03-30 15:28:34]     5601/tcp* 48 bytes read.
+[2022-03-30 15:28:35]     5601/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:28:35]     5601/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:28:35]  *  5601/tcp  48 bytes attack string from 185.180.143.90:41783.
+[2022-03-30 15:28:35] 185.180.143.75:49312 requesting tcp connection on 164.90.157.200:5601.
+[2022-03-30 15:28:35]     5601/tcp  Handling tcp connection request from 185.180.143.75:49312 to 164.90.157.200:5601.
+[2022-03-30 15:28:36]     5601/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:28:36]     5601/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:28:36]  *  5601/tcp  No bytes received from 185.180.143.75:49312.
+[2022-03-30 15:28:38] 91.240.118.19:51494 requesting tcp connection on 164.90.157.200:3702.
+[2022-03-30 15:28:44] ->  2349/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:28:53] ->  7002/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:28:57] 62.233.50.171:43056 requesting tcp connection on 164.90.157.200:1549.
+[2022-03-30 15:29:06] 193.56.146.28:63798 requesting tcp connection on 164.90.157.200:2797.
+[2022-03-30 15:29:06]     2797/tcp  Handling tcp connection request from 193.56.146.28:63798 to 164.90.157.200:2797.
+[2022-03-30 15:29:06]     2797/tcp* 47 bytes read.
+[2022-03-30 15:29:07]     2797/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:29:07]     2797/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:29:07]  *  2797/tcp  47 bytes attack string from 193.56.146.28:63798.
+[2022-03-30 15:29:09] -> 65478/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:29:35] -> 17219/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:29:39] 79.124.62.34:51525 requesting tcp connection on 164.90.157.200:1093.
+[2022-03-30 15:29:44] -> 12497/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:29:58] ->  3722/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:30:08] 79.124.62.82:51520 requesting tcp connection on 164.90.157.200:8389.
+[2022-03-30 15:30:09] ->  2323/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:30:15] -> 21306/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:30:35] 62.233.50.173:43258 requesting tcp connection on 164.90.157.200:6320.
+[2022-03-30 15:30:37] ->  5601/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:30:38] 91.240.118.37:51536 requesting tcp connection on 164.90.157.200:3745.
+[2022-03-30 15:30:38] ->  3702/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:30:51] 192.241.224.166:44933 requesting tcp connection on 164.90.157.200:7210.
+[2022-03-30 15:30:57] ->  1549/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:31:07] ->  2797/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:31:17] 62.233.50.171:43056 requesting tcp connection on 164.90.157.200:2088.
+[2022-03-30 15:31:39] ->  1093/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:31:40] 95.182.106.225:24655 requesting tcp connection on 164.90.157.200:2323.
+[2022-03-30 15:31:53] 162.142.125.236:20146 requesting tcp connection on 164.90.157.200:8791.
+[2022-03-30 15:31:53] 162.142.125.219:59800 requesting tcp connection on 164.90.157.200:8791.
+[2022-03-30 15:31:53]     8791/tcp  Handling tcp connection request from 162.142.125.219:59800 to 164.90.157.200:8791.
+[2022-03-30 15:31:54]     8791/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:31:54]     8791/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:31:54]  *  8791/tcp  No bytes received from 162.142.125.219:59800.
+[2022-03-30 15:31:55] 162.142.125.219:54872 requesting tcp connection on 164.90.157.200:8791.
+[2022-03-30 15:31:55]     8791/tcp  Handling tcp connection request from 162.142.125.219:54872 to 164.90.157.200:8791.
+[2022-03-30 15:31:55]     8791/tcp* 243 bytes read.
+[2022-03-30 15:31:55] 185.191.34.113:43987 requesting tcp connection on 164.90.157.200:27304.
+[2022-03-30 15:31:55] 78.128.113.146:50323 requesting tcp connection on 164.90.157.200:27427.
+[2022-03-30 15:31:56]     8791/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:31:56]     8791/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:31:56]  *  8791/tcp  243 bytes attack string from 162.142.125.219:54872.
+[2022-03-30 15:31:56] 162.142.125.219:52256 requesting tcp connection on 164.90.157.200:8791.
+[2022-03-30 15:31:56]     8791/tcp  Handling tcp connection request from 162.142.125.219:52256 to 164.90.157.200:8791.
+[2022-03-30 15:31:57]     8791/tcp* 45 bytes read.
+[2022-03-30 15:31:58]     8791/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:31:58]     8791/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:31:58]  *  8791/tcp  45 bytes attack string from 162.142.125.219:52256.
+[2022-03-30 15:31:58] 162.142.125.160:5189 requesting tcp connection on 164.90.157.200:8791.
+[2022-03-30 15:32:01] 79.124.62.78:51531 requesting tcp connection on 164.90.157.200:50002.
+[2022-03-30 15:32:08] ->  8389/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:32:17] 185.156.73.107:55074 requesting tcp connection on 164.90.157.200:3347.
+[2022-03-30 15:32:19] 79.124.62.86:51522 requesting tcp connection on 164.90.157.200:63389.
+[2022-03-30 15:32:34] 79.124.62.110:51528 requesting tcp connection on 164.90.157.200:33333.
+[2022-03-30 15:32:35] ->  6320/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:32:38] ->  3745/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:32:38] 79.124.62.110:51528 requesting tcp connection on 164.90.157.200:7777.
+[2022-03-30 15:32:51] 79.124.62.86:51522 requesting tcp connection on 164.90.157.200:3334.
+[2022-03-30 15:32:52] ->  7210/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:32:57] 62.233.50.177:43130 requesting tcp connection on 164.90.157.200:3612.
+[2022-03-30 15:33:00] 50.225.58.82:46962 requesting tcp connection on 164.90.157.200:9000.
+[2022-03-30 15:33:00] 50.225.58.82:59754 requesting tcp connection on 164.90.157.200:9000.
+[2022-03-30 15:33:00]     9000/tcp  Handling tcp connection request from 50.225.58.82:59754 to 164.90.157.200:9000.
+[2022-03-30 15:33:00]     9000/tcp* 993 bytes read.
+[2022-03-30 15:33:00]     9000/tcp  Connection closed by foreign host.
+[2022-03-30 15:33:00]  *  9000/tcp  993 bytes attack string from 50.225.58.82:59754.
+[2022-03-30 15:33:06] 167.248.133.154:18186 requesting tcp connection on 164.90.157.200:6512.
+[2022-03-30 15:33:07] 167.248.133.63:47516 requesting tcp connection on 164.90.157.200:6512.
+[2022-03-30 15:33:07]     6512/tcp  Handling tcp connection request from 167.248.133.63:47516 to 164.90.157.200:6512.
+[2022-03-30 15:33:07] 45.143.200.50:57913 requesting tcp connection on 164.90.157.200:14826.
+[2022-03-30 15:33:08] 167.248.133.63:46582 requesting tcp connection on 164.90.157.200:6512.
+[2022-03-30 15:33:08]     6512/tcp  Could not read data: No such file or directory.
+[2022-03-30 15:33:08]  *  6512/tcp  No bytes received from 167.248.133.63:47516.
+[2022-03-30 15:33:08]     6512/tcp  Handling tcp connection request from 167.248.133.63:46582 to 164.90.157.200:6512.
+[2022-03-30 15:33:08]     6512/tcp* 243 bytes read.
+[2022-03-30 15:33:09]     6512/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:33:09]     6512/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:33:09]  *  6512/tcp  243 bytes attack string from 167.248.133.63:46582.
+[2022-03-30 15:33:09] 167.248.133.63:48222 requesting tcp connection on 164.90.157.200:6512.
+[2022-03-30 15:33:09]     6512/tcp  Handling tcp connection request from 167.248.133.63:48222 to 164.90.157.200:6512.
+[2022-03-30 15:33:10]     6512/tcp* 45 bytes read.
+[2022-03-30 15:33:11]     6512/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:33:11]     6512/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:33:11]  *  6512/tcp  45 bytes attack string from 167.248.133.63:48222.
+[2022-03-30 15:33:11] 162.142.125.160:5189 requesting tcp connection on 164.90.157.200:6512.
+[2022-03-30 15:33:17] ->  2088/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:33:23] 91.240.118.73:49683 requesting tcp connection on 164.90.157.200:1075.
+[2022-03-30 15:33:28] 79.124.62.78:51531 requesting tcp connection on 164.90.157.200:6969.
+[2022-03-30 15:33:40] ->  2323/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:33:55] -> 27304/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:33:56] -> 27427/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:33:58] ->  8791/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:34:01] -> 50002/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:34:07] 92.63.197.71:51209 requesting tcp connection on 164.90.157.200:47113.
+[2022-03-30 15:34:17] ->  3347/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:34:19] -> 63389/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:34:22] 79.124.62.110:51528 requesting tcp connection on 164.90.157.200:3399.
+[2022-03-30 15:34:25] 79.124.62.34:51525 requesting tcp connection on 164.90.157.200:10002.
+[2022-03-30 15:34:34] -> 33333/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:34:38] ->  7777/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:34:51] ->  3334/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:34:57] ->  3612/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:35:01] ->  9000/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:35:07] -> 14826/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:35:11] ->  6512/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:35:23] ->  1075/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:35:28] ->  6969/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:35:35] 79.124.62.130:51534 requesting tcp connection on 164.90.157.200:9999.
+[2022-03-30 15:35:39] 192.241.222.105:43284 requesting tcp connection on 164.90.157.200:8091.
+[2022-03-30 15:35:45] 45.146.165.165:52770 requesting tcp connection on 164.90.157.200:8983.
+[2022-03-30 15:35:46] 157.230.218.88:47097 requesting tcp connection on 164.90.157.200:3914.
+[2022-03-30 15:35:46]     3914/tcp  Handling tcp connection request from 157.230.218.88:47097 to 164.90.157.200:3914.
+[2022-03-30 15:35:47]     3914/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:35:47]     3914/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:35:47]  *  3914/tcp  No bytes received from 157.230.218.88:47097.
+[2022-03-30 15:35:56] 79.124.62.110:51528 requesting tcp connection on 164.90.157.200:5002.
+[2022-03-30 15:36:01] 192.241.224.166:44570 requesting tcp connection on 164.90.157.200:7210.
+[2022-03-30 15:36:01]     7210/tcp  Handling tcp connection request from 192.241.224.166:44570 to 164.90.157.200:7210.
+[2022-03-30 15:36:01] 194.26.29.195:49622 requesting tcp connection on 164.90.157.200:4035.
+[2022-03-30 15:36:02]     7210/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:36:02]     7210/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:36:02]  *  7210/tcp  No bytes received from 192.241.224.166:44570.
+[2022-03-30 15:36:05] 194.26.29.152:58060 requesting tcp connection on 164.90.157.200:3851.
+[2022-03-30 15:36:06] 45.135.232.80:58011 requesting tcp connection on 164.90.157.200:1471.
+[2022-03-30 15:36:07] -> 47113/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:36:11] 62.233.50.177:43130 requesting tcp connection on 164.90.157.200:3764.
+[2022-03-30 15:36:22] ->  3399/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:36:25] -> 10002/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:36:43] 45.155.205.41:50469 requesting tcp connection on 164.90.157.200:2867.
+[2022-03-30 15:37:04] 62.233.50.173:43258 requesting tcp connection on 164.90.157.200:6365.
+[2022-03-30 15:37:35] ->  9999/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:37:40] ->  8091/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:37:45] ->  8983/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:37:47] 192.241.224.76:44232 requesting tcp connection on 164.90.157.200:4911.
+[2022-03-30 15:37:48] ->  3914/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:37:54] 192.241.222.105:34646 requesting tcp connection on 164.90.157.200:8091.
+[2022-03-30 15:37:54]     8091/tcp  Handling tcp connection request from 192.241.222.105:34646 to 164.90.157.200:8091.
+[2022-03-30 15:37:54]     8091/tcp* 145 bytes read.
+[2022-03-30 15:37:55] 193.56.146.28:63425 requesting tcp connection on 164.90.157.200:1205.
+[2022-03-30 15:37:55]     8091/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:37:55]     8091/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:37:55]  *  8091/tcp  145 bytes attack string from 192.241.222.105:34646.
+[2022-03-30 15:37:55]     1205/tcp  Handling tcp connection request from 193.56.146.28:63425 to 164.90.157.200:1205.
+[2022-03-30 15:37:55]     1205/tcp* 47 bytes read.
+[2022-03-30 15:37:56]     1205/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:37:56]     1205/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:37:56]  *  1205/tcp  47 bytes attack string from 193.56.146.28:63425.
+[2022-03-30 15:37:56] ->  5002/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:37:59] 79.124.62.82:51520 requesting tcp connection on 164.90.157.200:26001.
+[2022-03-30 15:38:01] ->  4035/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:38:02] ->  7210/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:38:05] ->  3851/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:38:06] ->  1471/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:38:08] 62.233.50.171:43056 requesting tcp connection on 164.90.157.200:1269.
+[2022-03-30 15:38:11] ->  3764/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:38:13] 192.241.224.76:53864 requesting tcp connection on 164.90.157.200:4911.
+[2022-03-30 15:38:13]     4911/tcp  Handling tcp connection request from 192.241.224.76:53864 to 164.90.157.200:4911.
+[2022-03-30 15:38:13]     4911/tcp* 159 bytes read.
+[2022-03-30 15:38:14]     4911/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:38:14]     4911/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:38:14]  *  4911/tcp  159 bytes attack string from 192.241.224.76:53864.
+[2022-03-30 15:38:34] 180.130.175.38:33786 requesting tcp connection on 164.90.157.200:35213.
+[2022-03-30 15:38:42] 170.106.115.15:35200 requesting tcp connection on 164.90.157.200:8137.
+[2022-03-30 15:38:42] 170.106.115.15:57336 requesting tcp connection on 164.90.157.200:8137.
+[2022-03-30 15:38:42]     8137/tcp  Handling tcp connection request from 170.106.115.15:57336 to 164.90.157.200:8137.
+[2022-03-30 15:38:42]     8137/tcp* 243 bytes read.
+[2022-03-30 15:38:43]     8137/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:38:43]     8137/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:38:43]  *  8137/tcp  243 bytes attack string from 170.106.115.15:57336.
+[2022-03-30 15:38:43] ->  2867/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:38:48] 91.240.118.17:46347 requesting tcp connection on 164.90.157.200:16920.
+[2022-03-30 15:38:53] 170.106.115.15:14546 requesting tcp connection on 164.90.157.200:8137.
+[2022-03-30 15:38:53]     8137/tcp  Handling tcp connection request from 170.106.115.15:14546 to 164.90.157.200:8137.
+[2022-03-30 15:38:53]     8137/tcp* 83 bytes read.
+[2022-03-30 15:38:54]     8137/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:38:54]     8137/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:38:54]  *  8137/tcp  83 bytes attack string from 170.106.115.15:14546.
+[2022-03-30 15:39:04] ->  6365/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:39:04] 170.106.115.15:21660 requesting tcp connection on 164.90.157.200:8137.
+[2022-03-30 15:39:04]     8137/tcp  Handling tcp connection request from 170.106.115.15:21660 to 164.90.157.200:8137.
+[2022-03-30 15:39:04]     8137/tcp* 19 bytes read.
+[2022-03-30 15:39:05]     8137/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:39:05]     8137/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:39:05]  *  8137/tcp  19 bytes attack string from 170.106.115.15:21660.
+[2022-03-30 15:39:05] deUnicode - Attack string seems to contain unicode encoded data, decoding it.
+[2022-03-30 15:39:05] deUnicode - Processing decoded attack.
+[2022-03-30 15:39:05] deUnicode - Attack string seems to contain unicode encoded data, decoding it.
+[2022-03-30 15:39:05] deUnicode - Processing decoded attack.
+[2022-03-30 15:39:24] 45.61.184.81:50525 requesting tcp connection on 164.90.157.200:5804.
+[2022-03-30 15:39:46] 62.233.50.173:43258 requesting tcp connection on 164.90.157.200:9048.
+[2022-03-30 15:39:54] 45.249.100.26:52381 requesting tcp connection on 164.90.157.200:26141.
+[2022-03-30 15:39:54]    26141/tcp  Handling tcp connection request from 45.249.100.26:52381 to 164.90.157.200:26141.
+[2022-03-30 15:39:55] ->  8091/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:39:55]    26141/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:39:55]    26141/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:39:55]  * 26141/tcp  No bytes received from 45.249.100.26:52381.
+[2022-03-30 15:39:56] ->  1205/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:39:59] -> 26001/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:40:08] ->  1269/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:40:09] 79.124.62.130:51534 requesting tcp connection on 164.90.157.200:50001.
+[2022-03-30 15:40:10] 91.240.118.17:46347 requesting tcp connection on 164.90.157.200:16983.
+[2022-03-30 15:40:14] ->  4911/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:40:26] 193.56.146.28:63563 requesting tcp connection on 164.90.157.200:3465.
+[2022-03-30 15:40:26]     3465/tcp  Handling tcp connection request from 193.56.146.28:63563 to 164.90.157.200:3465.
+[2022-03-30 15:40:26]     3465/tcp* 47 bytes read.
+[2022-03-30 15:40:27]     3465/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:40:27]     3465/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:40:27]  *  3465/tcp  47 bytes attack string from 193.56.146.28:63563.
+[2022-03-30 15:40:34] -> 35213/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:40:48] -> 16920/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:41:03] 68.183.176.30:44735 requesting tcp connection on 164.90.157.200:3999.
+[2022-03-30 15:41:03]     3999/tcp  Handling tcp connection request from 68.183.176.30:44735 to 164.90.157.200:3999.
+[2022-03-30 15:41:04]     3999/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:41:04]     3999/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:41:04]  *  3999/tcp  No bytes received from 68.183.176.30:44735.
+[2022-03-30 15:41:05] ->  8137/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:41:24] ->  5804/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:41:46] ->  9048/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:41:54] 79.124.62.82:51520 requesting tcp connection on 164.90.157.200:3385.
+[2022-03-30 15:41:55] -> 26141/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:42:09] -> 50001/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:42:09] 45.135.232.80:43592 requesting tcp connection on 164.90.157.200:3541.
+[2022-03-30 15:42:10] -> 16983/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:42:27] ->  3465/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:42:45] 193.163.125.188:44837 requesting tcp connection on 164.90.157.200:5230.
+[2022-03-30 15:42:47] 167.94.145.24:64064 requesting tcp connection on 164.90.157.200:47385.
+[2022-03-30 15:42:47] 167.94.145.58:59714 requesting tcp connection on 164.90.157.200:47385.
+[2022-03-30 15:42:47]    47385/tcp  Handling tcp connection request from 167.94.145.58:59714 to 164.90.157.200:47385.
+[2022-03-30 15:42:48]    47385/tcp  Could not read data: No such file or directory.
+[2022-03-30 15:42:48]  * 47385/tcp  No bytes received from 167.94.145.58:59714.
+[2022-03-30 15:42:48] 167.94.145.58:34988 requesting tcp connection on 164.90.157.200:47385.
+[2022-03-30 15:42:48]    47385/tcp  Handling tcp connection request from 167.94.145.58:34988 to 164.90.157.200:47385.
+[2022-03-30 15:42:48]    47385/tcp* 243 bytes read.
+[2022-03-30 15:42:49]    47385/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:42:49]    47385/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:42:49]  * 47385/tcp  243 bytes attack string from 167.94.145.58:34988.
+[2022-03-30 15:42:50] 167.94.145.58:43062 requesting tcp connection on 164.90.157.200:47385.
+[2022-03-30 15:42:50]    47385/tcp  Handling tcp connection request from 167.94.145.58:43062 to 164.90.157.200:47385.
+[2022-03-30 15:42:51]    47385/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:42:51]    47385/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:42:51]  * 47385/tcp  No bytes received from 167.94.145.58:43062.
+[2022-03-30 15:43:04] ->  3999/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:43:36] 167.94.145.20:36119 requesting tcp connection on 164.90.157.200:8749.
+[2022-03-30 15:43:36] 167.94.145.60:43584 requesting tcp connection on 164.90.157.200:8749.
+[2022-03-30 15:43:36]     8749/tcp  Handling tcp connection request from 167.94.145.60:43584 to 164.90.157.200:8749.
+[2022-03-30 15:43:37] 167.94.145.60:47466 requesting tcp connection on 164.90.157.200:8749.
+[2022-03-30 15:43:37]     8749/tcp  Could not read data: No such file or directory.
+[2022-03-30 15:43:37]  *  8749/tcp  No bytes received from 167.94.145.60:43584.
+[2022-03-30 15:43:37]     8749/tcp  Handling tcp connection request from 167.94.145.60:47466 to 164.90.157.200:8749.
+[2022-03-30 15:43:37]     8749/tcp* 243 bytes read.
+[2022-03-30 15:43:38]     8749/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:43:38]     8749/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:43:38]  *  8749/tcp  243 bytes attack string from 167.94.145.60:47466.
+[2022-03-30 15:43:38] 167.94.145.60:56146 requesting tcp connection on 164.90.157.200:8749.
+[2022-03-30 15:43:39]     8749/tcp  Handling tcp connection request from 167.94.145.60:56146 to 164.90.157.200:8749.
+[2022-03-30 15:43:40]     8749/tcp* 45 bytes read.
+[2022-03-30 15:43:41]     8749/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:43:41]     8749/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:43:41]  *  8749/tcp  45 bytes attack string from 167.94.145.60:56146.
+[2022-03-30 15:43:55] ->  3385/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:43:55] 62.233.50.173:43258 requesting tcp connection on 164.90.157.200:5514.
+[2022-03-30 15:44:01] 79.124.62.78:51531 requesting tcp connection on 164.90.157.200:8888.
+[2022-03-30 15:44:09] ->  3541/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:44:15] 192.3.136.84:46456 requesting tcp connection on 164.90.157.200:9090.
+[2022-03-30 15:44:43] 167.94.138.136:42723 requesting tcp connection on 164.90.157.200:8598.
+[2022-03-30 15:44:43] 167.94.138.61:39294 requesting tcp connection on 164.90.157.200:8598.
+[2022-03-30 15:44:43]     8598/tcp  Handling tcp connection request from 167.94.138.61:39294 to 164.90.157.200:8598.
+[2022-03-30 15:44:44] 167.94.138.61:59612 requesting tcp connection on 164.90.157.200:8598.
+[2022-03-30 15:44:44]     8598/tcp  Could not read data: No such file or directory.
+[2022-03-30 15:44:44]  *  8598/tcp  No bytes received from 167.94.138.61:39294.
+[2022-03-30 15:44:44]     8598/tcp  Handling tcp connection request from 167.94.138.61:59612 to 164.90.157.200:8598.
+[2022-03-30 15:44:44]     8598/tcp* 243 bytes read.
+[2022-03-30 15:44:45] ->  5230/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:44:45]     8598/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:44:45]     8598/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:44:45]  *  8598/tcp  243 bytes attack string from 167.94.138.61:59612.
+[2022-03-30 15:44:45] 167.94.138.61:50606 requesting tcp connection on 164.90.157.200:8598.
+[2022-03-30 15:44:46]     8598/tcp  Handling tcp connection request from 167.94.138.61:50606 to 164.90.157.200:8598.
+[2022-03-30 15:44:47]     8598/tcp* 45 bytes read.
+[2022-03-30 15:44:48]     8598/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:44:48]     8598/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:44:48]  *  8598/tcp  45 bytes attack string from 167.94.138.61:50606.
+[2022-03-30 15:44:48] 162.142.125.160:5189 requesting tcp connection on 164.90.157.200:8598.
+[2022-03-30 15:44:51] -> 47385/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:45:02] 79.124.62.82:51520 requesting tcp connection on 164.90.157.200:33889.
+[2022-03-30 15:45:41] ->  8749/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:45:45] 91.240.118.15:46279 requesting tcp connection on 164.90.157.200:16557.
+[2022-03-30 15:45:55] ->  5514/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:46:01] ->  8888/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:46:15] ->  9090/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:46:42] 80.82.77.144:57500 requesting tcp connection on 164.90.157.200:5450.
+[2022-03-30 15:46:47] 193.56.146.16:63204 requesting tcp connection on 164.90.157.200:12000.
+[2022-03-30 15:46:48]    12000/tcp  Handling tcp connection request from 193.56.146.16:63204 to 164.90.157.200:12000.
+[2022-03-30 15:46:48]    12000/tcp* 47 bytes read.
+[2022-03-30 15:46:48] ->  8598/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:46:49]    12000/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:46:49]    12000/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:46:49]  * 12000/tcp  47 bytes attack string from 193.56.146.16:63204.
+[2022-03-30 15:47:02] -> 33889/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:47:15] 91.240.118.111:49316 requesting tcp connection on 164.90.157.200:5925.
+[2022-03-30 15:47:19] 62.233.50.171:43056 requesting tcp connection on 164.90.157.200:3001.
+[2022-03-30 15:47:31] 170.106.115.55:54307 requesting tcp connection on 164.90.157.200:3071.
+[2022-03-30 15:47:31] 170.106.115.55:10206 requesting tcp connection on 164.90.157.200:3071.
+[2022-03-30 15:47:31]     3071/tcp  Handling tcp connection request from 170.106.115.55:10206 to 164.90.157.200:3071.
+[2022-03-30 15:47:31]     3071/tcp* 243 bytes read.
+[2022-03-30 15:47:32]     3071/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:47:32]     3071/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:47:32]  *  3071/tcp  243 bytes attack string from 170.106.115.55:10206.
+[2022-03-30 15:47:42] 170.106.115.55:24152 requesting tcp connection on 164.90.157.200:3071.
+[2022-03-30 15:47:42]     3071/tcp  Handling tcp connection request from 170.106.115.55:24152 to 164.90.157.200:3071.
+[2022-03-30 15:47:42]     3071/tcp* 83 bytes read.
+[2022-03-30 15:47:43]     3071/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:47:43]     3071/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:47:43]  *  3071/tcp  83 bytes attack string from 170.106.115.55:24152.
+[2022-03-30 15:47:45] -> 16557/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:47:49] 62.233.50.173:43258 requesting tcp connection on 164.90.157.200:9114.
+[2022-03-30 15:47:53] 170.106.115.55:37434 requesting tcp connection on 164.90.157.200:3071.
+[2022-03-30 15:47:53]     3071/tcp  Handling tcp connection request from 170.106.115.55:37434 to 164.90.157.200:3071.
+[2022-03-30 15:47:53]     3071/tcp* 19 bytes read.
+[2022-03-30 15:47:54]     3071/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:47:54]     3071/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:47:54]  *  3071/tcp  19 bytes attack string from 170.106.115.55:37434.
+[2022-03-30 15:47:54] deUnicode - Attack string seems to contain unicode encoded data, decoding it.
+[2022-03-30 15:47:54] deUnicode - Processing decoded attack.
+[2022-03-30 15:47:54] deUnicode - Attack string seems to contain unicode encoded data, decoding it.
+[2022-03-30 15:47:54] deUnicode - Processing decoded attack.
+[2022-03-30 15:48:16] 104.206.128.34:52344 requesting tcp connection on 164.90.157.200:51005.
+[2022-03-30 15:48:42] ->  5450/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:48:49] -> 12000/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:48:54] 101.201.236.109:55249 requesting tcp connection on 164.90.157.200:2375.
+[2022-03-30 15:49:03] 94.102.61.4:44161 requesting tcp connection on 164.90.157.200:631.
+[2022-03-30 15:49:15] ->  5925/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:49:19] 45.155.205.41:50469 requesting tcp connection on 164.90.157.200:2899.
+[2022-03-30 15:49:19] ->  3001/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:49:37] 162.142.125.242:56343 requesting tcp connection on 164.90.157.200:5160.
+[2022-03-30 15:49:37] 162.142.125.221:34148 requesting tcp connection on 164.90.157.200:5160.
+[2022-03-30 15:49:37]     5160/tcp  Handling tcp connection request from 162.142.125.221:34148 to 164.90.157.200:5160.
+[2022-03-30 15:49:38]     5160/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:49:38]     5160/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:49:38]  *  5160/tcp  No bytes received from 162.142.125.221:34148.
+[2022-03-30 15:49:39] 162.142.125.160:5189 requesting tcp connection on 164.90.157.200:5160.
+[2022-03-30 15:49:39] 104.206.128.34:58801 requesting tcp connection on 164.90.157.200:51005.
+[2022-03-30 15:49:39]    51005/tcp  Handling tcp connection request from 104.206.128.34:58801 to 164.90.157.200:51005.
+[2022-03-30 15:49:39]    51005/tcp* 103 bytes read.
+[2022-03-30 15:49:40]    51005/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:49:40]    51005/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:49:40]  * 51005/tcp  103 bytes attack string from 104.206.128.34:58801.
+[2022-03-30 15:49:49] ->  9114/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:49:54] ->  3071/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:50:03] 62.233.50.173:43258 requesting tcp connection on 164.90.157.200:5709.
+[2022-03-30 15:50:17] 101.201.236.109:34346 requesting tcp connection on 164.90.157.200:2375.
+[2022-03-30 15:50:17]     2375/tcp  Handling tcp connection request from 101.201.236.109:34346 to 164.90.157.200:2375.
+[2022-03-30 15:50:17]     2375/tcp* 129 bytes read.
+[2022-03-30 15:50:18]     2375/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:50:18]     2375/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:50:18]  *  2375/tcp  129 bytes attack string from 101.201.236.109:34346.
+[2022-03-30 15:50:24] 79.124.62.110:51528 requesting tcp connection on 164.90.157.200:3350.
+[2022-03-30 15:51:09] 185.191.34.113:43987 requesting tcp connection on 164.90.157.200:28954.
+[2022-03-30 15:51:19] ->  2899/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:51:26] 79.124.62.82:51520 requesting tcp connection on 164.90.157.200:3406.
+[2022-03-30 15:51:38] ->  5160/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:51:40] -> 51005/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:52:01] 92.63.197.71:51209 requesting tcp connection on 164.90.157.200:43113.
+[2022-03-30 15:52:03] ->  5709/tcp  No incoming connection for 120 seconds - server terminated.
+[2022-03-30 15:52:04] 91.241.19.187:64160 requesting tcp connection on 164.90.157.200:11012.
+[2022-03-30 15:52:04]    11012/tcp  Handling tcp connection request from 91.241.19.187:64160 to 164.90.157.200:11012.
+[2022-03-30 15:52:04]    11012/tcp* 47 bytes read.
+[2022-03-30 15:52:05]    11012/tcp  No data for 1 second(s), sending '\n'.
+[2022-03-30 15:52:05]    11012/tcp  Error - Sending response failed: No such file or directory.
+[2022-03-30 15:52:05]  * 11012/tcp  47 bytes attack string from 91.241.19.187:64160.
