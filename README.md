@@ -1,5 +1,5 @@
 # MyHoneyNet
-malicious files from my live honeypot {daily logs coming soon}
+malicious files from my live honeypot {daily logs are here now!}
 
 ###DISCLAMER### -these files are malicious when converted over to .exe. Be careful with what you do! i am not responsible for your actions, you have been warned!
 
